@@ -1,4 +1,4 @@
-﻿namespace ZbW.Testat.Pattern.Console.Repository
+﻿namespace ZbW.Testat.Pattern.Console.Repositories
 {
     using System;
     using System.Collections.Generic;
