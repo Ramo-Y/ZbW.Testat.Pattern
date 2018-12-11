@@ -9,18 +9,21 @@
             try
             {
                 Start();
-                Console.ReadLine();
             }
             catch (Exception exception)
             {
                 Console.WriteLine(exception);
+            }
+            finally
+            {
                 Console.ReadLine();
             }
         }
 
         private static void Start()
         {
-            throw new NotImplementedException();
+            var itemsManager = new ItemsManager();
+            itemsManager.Start();
         }
     }
 }

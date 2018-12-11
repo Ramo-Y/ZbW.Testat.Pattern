@@ -17,6 +17,8 @@
 
         public void AddItem<T>(T item)
         {
+            var person = item as Person;
+            _personItems.Add(person);
             throw new NotImplementedException();
         }
 
